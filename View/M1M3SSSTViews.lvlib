@@ -5,7 +5,6 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="appControlView.vi" Type="VI" URL="../appControlView.vi"/>
-	<Item Name="controllerView.vi" Type="VI" URL="../controllerView.vi"/>
 	<Item Name="demandsView.vi" Type="VI" URL="../demandsView.vi"/>
 	<Item Name="faultView.vi" Type="VI" URL="../faultView.vi"/>
 	<Item Name="inputsChartView.vi" Type="VI" URL="../inputsChartView.vi"/>

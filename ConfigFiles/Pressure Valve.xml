@@ -1,0 +1,15 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>15.0.1f1</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>Pressure Valve</Name>
+<NumElts>1</NumElts>
+<DBL>
+<Name>Ramp Rate</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+</Cluster>
+</LvVariant>
+</LVData>
