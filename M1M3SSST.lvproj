@@ -2,7 +2,7 @@
 <Project Type="Project" LVVersion="15008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Property Name="varPersistentID:{941E2CFD-BA28-41EF-9A4E-850C3D34625D}" Type="Ref">/My Computer/Dependencies/user.lib/ILCSimulatorSignals.lvlib/ILCDataRequest</Property>
+	<Property Name="varPersistentID:{D1C33589-D88E-4355-B523-FEBA5DA6C8D4}" Type="Ref">/My Computer/Dependencies/user.lib/ILCSimulatorSignals.lvlib/ILCDataRequest</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -186,6 +186,7 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{271F3B66-DB24-445E-9DB8-0F938B84204F}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{8632E165-7619-40F8-9733-C1242FE9AFCD}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_waitDebugging" Type="Bool">true</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{6A4705D9-27BF-46C6-A8DB-7E3A11BED0A3}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">M1M3SSST</Property>
@@ -194,20 +195,18 @@
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{5E0C5CDC-F4EB-491C-AB90-13497E08BC6D}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">26</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">M1M3SSST.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/M1M3SSST.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/data</Property>
 				<Property Name="Destination[2].destName" Type="Str">ConfigFiles</Property>
 				<Property Name="Destination[2].path" Type="Path">../builds/NI_AB_PROJECTNAME/ConfigFiles</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D22F2D93-BD1C-4FB5-8548-D0A0D737E5F5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{1F3431B9-6928-4372-B237-AED37C9687A0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/View/M1M3SSSTViews.lvlib/m1m3ssdtView.vi</Property>
@@ -219,7 +218,11 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/ConfigFiles</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Controller/Controller.lvclass/Public/controllerMain.vi</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">M1M3SSST</Property>
 				<Property Name="TgtF_internalName" Type="Str">M1M3SSST</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 20145</Property>
@@ -296,7 +299,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">M1M3SSSTIns</Property>
 				<Property Name="INST_defaultDir" Type="Str">{9F0E60EC-C978-44C9-BC96-D0CAC7896C9A}</Property>
 				<Property Name="INST_productName" Type="Str">M1M3SSST</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">15018007</Property>
 				<Property Name="MSI_arpCompany" Type="Str">AURA</Property>
