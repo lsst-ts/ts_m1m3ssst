@@ -1,0 +1,31 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>15.0.1f1</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>Stiffness Calculator</Name>
+<NumElts>1</NumElts>
+<Array>
+<Name>Forces in Stiffness Summary</Name>
+<Dimsize>4</Dimsize>
+<DBL>
+<Name>Force Demand</Name>
+<Val>467.06331000000006</Val>
+</DBL>
+<DBL>
+<Name>Force Demand</Name>
+<Val>934.12662000000012</Val>
+</DBL>
+<DBL>
+<Name>Force Demand</Name>
+<Val>1401.18993000000000</Val>
+</DBL>
+<DBL>
+<Name>Force Demand</Name>
+<Val>1779.28880000000004</Val>
+</DBL>
+</Array>
+</Cluster>
+</LvVariant>
+</LVData>

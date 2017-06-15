@@ -1,0 +1,51 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>15.0.1f1</Version>
+<LvVariant>
+<Name>Value</Name>
+<Cluster>
+<Name>System Controller</Name>
+<NumElts>5</NumElts>
+<DBL>
+<Name>PreconditioningRamp Rate (%/s)</Name>
+<Val>15.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Stiffness Test Ramp Rate (%/s)</Name>
+<Val>1.30000000000000</Val>
+</DBL>
+<Cluster>
+<Name>Preconditioning Ramp Target</Name>
+<NumElts>1</NumElts>
+<DBL>
+<Name>Displacement</Name>
+<Val>1.27000000000000E-2</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Stiffness Test Ramp Targets</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Displacement</Name>
+<Val>1.52400000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>Target Force</Name>
+<Val>1779.28880000000004</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>Settling</Name>
+<NumElts>2</NumElts>
+<DBL>
+<Name>Displacement Max StDev</Name>
+<Val>2.54000000000000E-6</Val>
+</DBL>
+<DBL>
+<Name>Evaluation Time</Name>
+<Val>2.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+</LvVariant>
+</LVData>

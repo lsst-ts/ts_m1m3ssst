@@ -14,7 +14,7 @@
 <Choice>RS232</Choice>
 <Choice>RS485</Choice>
 <Choice>SerialSimulator</Choice>
-<Val>2</Val>
+<Val>0</Val>
 </EW>
 <Cluster>
 <Name>Protocol Parameters</Name>
@@ -22,7 +22,7 @@
 <Refnum>
 <Name>VISA resource name</Name>
 <RefKind>VISA</RefKind>
-<Val>COM10</Val>
+<Val>COM4</Val>
 </Refnum>
 <U32>
 <Name>Baud Rate</Name>
@@ -73,14 +73,10 @@
 </Cluster>
 <Array>
 <Name>Channels To Read</Name>
-<Dimsize>2</Dimsize>
+<Dimsize>1</Dimsize>
 <I32>
 <Name></Name>
 <Val>0</Val>
-</I32>
-<I32>
-<Name></Name>
-<Val>1</Val>
 </I32>
 </Array>
 </Cluster>
