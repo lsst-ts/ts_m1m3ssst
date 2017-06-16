@@ -5,23 +5,27 @@
 <Name>Value</Name>
 <Cluster>
 <Name>ADC Conversion Settings</Name>
-<NumElts>4</NumElts>
+<NumElts>5</NumElts>
 <DBL>
 <Name>Reference Voltage Vref</Name>
-<Val>2.50000000000000</Val>
+<Val>1.25000000000000</Val>
 </DBL>
 <U32>
 <Name>Nominal Input Range in Counts</Name>
-<Val>256902</Val>
+<Val>262143</Val>
 </U32>
-<U8>
-<Name>Preamplifier Gain</Name>
-<Val>101</Val>
-</U8>
+<DBL>
+<Name>Preamplifier Gain (K1 * K2)</Name>
+<Val>98.98000000000000</Val>
+</DBL>
 <U16>
 <Name>Conversion Settling Cycles</Name>
 <Val>3</Val>
 </U16>
+<DBL>
+<Name>Excitation Voltage Vexc</Name>
+<Val>3.30000000000000</Val>
+</DBL>
 </Cluster>
 </LvVariant>
 </LVData>
