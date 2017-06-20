@@ -13,6 +13,7 @@
 	<Item Name="m1m3ssstViewRTM.rtm" Type="Document" URL="../m1m3ssstViewRTM.rtm"/>
 	<Item Name="outputView.vi" Type="VI" URL="../outputView.vi"/>
 	<Item Name="stateView.vi" Type="VI" URL="../stateView.vi"/>
-	<Item Name="stiffnessChartView.vi" Type="VI" URL="../stiffnessChartView.vi"/>
+	<Item Name="stiffnessGraphView.vi" Type="VI" URL="../stiffnessGraphView.vi"/>
+	<Item Name="stiffnessSummaryView.vi" Type="VI" URL="../stiffnessSummaryView.vi"/>
 	<Item Name="testStatusView.vi" Type="VI" URL="../testStatusView.vi"/>
 </Library>

@@ -12,6 +12,8 @@
 	<Item Name="PubDataEvents.ctl" Type="VI" URL="../PubDataEvents.ctl"/>
 	<Item Name="StateSelector.ctl" Type="VI" URL="../StateSelector.ctl"/>
 	<Item Name="StiffnessData.ctl" Type="VI" URL="../StiffnessData.ctl"/>
+	<Item Name="StiffnessDataAssembly.ctl" Type="VI" URL="../StiffnessDataAssembly.ctl"/>
+	<Item Name="StiffnessesDataSummary.ctl" Type="VI" URL="../StiffnessesDataSummary.ctl"/>
 	<Item Name="SubDataEvents.ctl" Type="VI" URL="../SubDataEvents.ctl"/>
 	<Item Name="TestStatus.ctl" Type="VI" URL="../TestStatus.ctl"/>
 	<Item Name="ThermocoupleData.ctl" Type="VI" URL="../ThermocoupleData.ctl"/>

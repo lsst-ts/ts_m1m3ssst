@@ -5,26 +5,22 @@
 <Name>Value</Name>
 <Cluster>
 <Name>TestDataLog</Name>
-<NumElts>5</NumElts>
+<NumElts>4</NumElts>
 <Path>
 <Name>Log Directory</Name>
-<Val>C:\Users\Paul\Documents\M1M3SSSTData</Val>
+<Val>C:\Users\Public\M1M3SSST</Val>
 </Path>
 <String>
 <Name>Log Filename Base</Name>
-<Val>Test1</Val>
+<Val>Unit0002</Val>
 </String>
 <U32>
 <Name>Max records per file</Name>
-<Val>20000</Val>
+<Val>100000</Val>
 </U32>
 <String>
 <Name>Comment</Name>
-<Val>This is test unit 2</Val>
-</String>
-<String>
-<Name>DUT ID</Name>
-<Val>Test Unit 2</Val>
+<Val></Val>
 </String>
 </Cluster>
 </LvVariant>
